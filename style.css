@@ -1,0 +1,80 @@
+body {
+    background-image: url('sekolahan.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+.slip {
+    background-image: url('slip.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh area */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    color: white;
+    font-size: 25px;
+}
+
+.border {
+        background-color: aqua;
+}
+
+.border1 {
+    background-color: aqua;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+    padding: 5px;
+}
+
+.card-content h2 {
+    margin-top: 0;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #666;
+}
+
+.student-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.student-video {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card-content a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}
